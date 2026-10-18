@@ -1,0 +1,11 @@
+# REA - Test fixtures contain DUMMY keys, not real secrets
+# These files are safe to ignore for secret scanning
+
+src/verify-qwen-client.mjs:generic-api-key
+src/verify-deepseek-client.mjs:generic-api-key
+src/verify-qwen-client.mjs:qwen-api-key
+src/verify-deepseek-client.mjs:deepseek-api-key
+
+# If files are in REA-Tool subfolder
+REA-Tool/src/verify-qwen-client.mjs
+REA-Tool/src/verify-deepseek-client.mjs
